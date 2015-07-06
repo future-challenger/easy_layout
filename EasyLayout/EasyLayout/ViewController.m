@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+EasyLayout.h"
 
 @interface ViewController ()
 
