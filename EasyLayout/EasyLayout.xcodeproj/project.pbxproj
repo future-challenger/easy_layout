@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0566D7B91B4A4D0A00A23307 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0566D7B81B4A4D0A00A23307 /* UIView+EasyLayout.m */; };
+		0566D7BD1B4A4FA300A23307 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0566D7BC1B4A4FA300A23307 /* UIView+EasyLayout.m */; };
+		0566D7BF1B4A4FB600A23307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566D7BE1B4A4FB600A23307 /* UIKit.framework */; };
+		0566D7C11B4A4FD500A23307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566D7C01B4A4FD500A23307 /* Foundation.framework */; };
 		059D2BC31B4A2E17000E69B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC21B4A2E17000E69B3 /* main.m */; };
 		059D2BC61B4A2E17000E69B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC51B4A2E17000E69B3 /* AppDelegate.m */; };
 		059D2BC91B4A2E17000E69B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC81B4A2E17000E69B3 /* ViewController.m */; };
@@ -28,8 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0566D7B71B4A4D0A00A23307 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
-		0566D7B81B4A4D0A00A23307 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		0566D7BB1B4A4FA300A23307 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		0566D7BC1B4A4FA300A23307 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		0566D7BE1B4A4FB600A23307 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0566D7C01B4A4FD500A23307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		059D2BBD1B4A2E17000E69B3 /* EasyLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D2BC11B4A2E17000E69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D2BC21B4A2E17000E69B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0566D7C11B4A4FD500A23307 /* Foundation.framework in Frameworks */,
+				0566D7BF1B4A4FB600A23307 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,11 +69,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0566D7B61B4A4D0A00A23307 /* Classes */ = {
+		0566D7BA1B4A4FA300A23307 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0566D7B71B4A4D0A00A23307 /* UIView+EasyLayout.h */,
-				0566D7B81B4A4D0A00A23307 /* UIView+EasyLayout.m */,
+				0566D7BB1B4A4FA300A23307 /* UIView+EasyLayout.h */,
+				0566D7BC1B4A4FA300A23307 /* UIView+EasyLayout.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -75,6 +81,9 @@
 		059D2BB41B4A2E17000E69B3 = {
 			isa = PBXGroup;
 			children = (
+				0566D7C01B4A4FD500A23307 /* Foundation.framework */,
+				0566D7BE1B4A4FB600A23307 /* UIKit.framework */,
+				0566D7BA1B4A4FA300A23307 /* Classes */,
 				059D2BBF1B4A2E17000E69B3 /* EasyLayout */,
 				059D2BD91B4A2E17000E69B3 /* EasyLayoutTests */,
 				059D2BBE1B4A2E17000E69B3 /* Products */,
@@ -93,7 +102,6 @@
 		059D2BBF1B4A2E17000E69B3 /* EasyLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0566D7B61B4A4D0A00A23307 /* Classes */,
 				059D2BC41B4A2E17000E69B3 /* AppDelegate.h */,
 				059D2BC51B4A2E17000E69B3 /* AppDelegate.m */,
 				059D2BC71B4A2E17000E69B3 /* ViewController.h */,
@@ -234,7 +242,7 @@
 			files = (
 				059D2BC91B4A2E17000E69B3 /* ViewController.m in Sources */,
 				059D2BC61B4A2E17000E69B3 /* AppDelegate.m in Sources */,
-				0566D7B91B4A4D0A00A23307 /* UIView+EasyLayout.m in Sources */,
+				0566D7BD1B4A4FA300A23307 /* UIView+EasyLayout.m in Sources */,
 				059D2BC31B4A2E17000E69B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
