@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0566D7BF1B4A4FB600A23307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566D7BE1B4A4FB600A23307 /* UIKit.framework */; };
+		0566D7C11B4A4FD500A23307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566D7C01B4A4FD500A23307 /* Foundation.framework */; };
+		0566D7C51B4A586900A23307 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0566D7C41B4A586900A23307 /* UIView+EasyLayout.m */; };
 		059D2BC31B4A2E17000E69B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC21B4A2E17000E69B3 /* main.m */; };
 		059D2BC61B4A2E17000E69B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC51B4A2E17000E69B3 /* AppDelegate.m */; };
 		059D2BC91B4A2E17000E69B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BC81B4A2E17000E69B3 /* ViewController.m */; };
@@ -14,7 +17,10 @@
 		059D2BCE1B4A2E17000E69B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059D2BCD1B4A2E17000E69B3 /* Images.xcassets */; };
 		059D2BD11B4A2E17000E69B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059D2BCF1B4A2E17000E69B3 /* LaunchScreen.xib */; };
 		059D2BDD1B4A2E17000E69B3 /* EasyLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BDC1B4A2E17000E69B3 /* EasyLayoutTests.m */; };
+<<<<<<< HEAD
 		059D2BF01B4A3B63000E69B3 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BEF1B4A3B63000E69B3 /* UIView+EasyLayout.m */; };
+=======
+>>>>>>> master
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0566D7BE1B4A4FB600A23307 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0566D7C01B4A4FD500A23307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0566D7C31B4A586900A23307 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		0566D7C41B4A586900A23307 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
 		059D2BBD1B4A2E17000E69B3 /* EasyLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D2BC11B4A2E17000E69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D2BC21B4A2E17000E69B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +51,11 @@
 		059D2BD61B4A2E17000E69B3 /* EasyLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D2BDB1B4A2E17000E69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D2BDC1B4A2E17000E69B3 /* EasyLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyLayoutTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		059D2BEE1B4A3B63000E69B3 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
 		059D2BEF1B4A3B63000E69B3 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+=======
+>>>>>>> master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0566D7C11B4A4FD500A23307 /* Foundation.framework in Frameworks */,
+				0566D7BF1B4A4FB600A23307 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,10 +78,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0566D7C21B4A586900A23307 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0566D7C31B4A586900A23307 /* UIView+EasyLayout.h */,
+				0566D7C41B4A586900A23307 /* UIView+EasyLayout.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		059D2BB41B4A2E17000E69B3 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				059D2BED1B4A3B63000E69B3 /* Classes */,
+=======
+				0566D7C21B4A586900A23307 /* Classes */,
+				0566D7C01B4A4FD500A23307 /* Foundation.framework */,
+				0566D7BE1B4A4FB600A23307 /* UIKit.framework */,
+>>>>>>> master
 				059D2BBF1B4A2E17000E69B3 /* EasyLayout */,
 				059D2BD91B4A2E17000E69B3 /* EasyLayoutTests */,
 				059D2BBE1B4A2E17000E69B3 /* Products */,
@@ -234,7 +265,11 @@
 			files = (
 				059D2BC91B4A2E17000E69B3 /* ViewController.m in Sources */,
 				059D2BC61B4A2E17000E69B3 /* AppDelegate.m in Sources */,
+<<<<<<< HEAD
 				059D2BF01B4A3B63000E69B3 /* UIView+EasyLayout.m in Sources */,
+=======
+				0566D7C51B4A586900A23307 /* UIView+EasyLayout.m in Sources */,
+>>>>>>> master
 				059D2BC31B4A2E17000E69B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +465,7 @@
 				059D2BE21B4A2E17000E69B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059D2BE31B4A2E17000E69B3 /* Build configuration list for PBXNativeTarget "EasyLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +474,7 @@
 				059D2BE51B4A2E17000E69B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

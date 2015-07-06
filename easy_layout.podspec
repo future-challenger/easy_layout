@@ -17,14 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "easy_layout"
   s.version      = "0.0.1"
-  s.summary      = "A layout framework to make layout in iOS works like Android."
+
+  s.summary      = "An Android like layout framework for iOS."
 
   s.description  = <<-DESC
-                   A framework to make iOS layout works like Android layout.xml.
+                   This is an Android like layout framework for iOS.
 
-                   * Frame calculation is kinda boring.
-                   * Apple auto layout and size class works not that cool.
-                   * This framework just make layout easier based on the frame thing.
+                   * Calculation of frame is boring.
+                   * Autolayout and size class is even more boring and not easy to fix those warnings and errors.
+                   * This framework is used to solve this two problems based on frame positon.
+                   
                    DESC
 
   s.homepage     = "https://github.com/future-challenger/easy_layout"
@@ -66,8 +68,8 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
+
+  s.ios.deployment_target = "5.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,8 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+
+  s.source_files  = 'Classes/**/*.{h,m}'
+  #s.exclude_files = "Classes/Exclude"
+
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -113,8 +117,11 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
+
+  s.frameworks = 'UIKit', 'Foundation'
+
   # s.library   = "iconv"
-  # s.libraries = "iconv"
+
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -123,6 +130,8 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+
+  s.requires_arc = true
+
 
 end
