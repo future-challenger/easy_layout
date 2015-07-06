@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "easy_layout"
   s.version      = "0.0.1"
-  s.summary      = "A short description of easy_layout."
+  s.summary      = "An Android like layout framework for iOS."
 
   s.description  = <<-DESC
-                   A longer description of easy_layout in Markdown format.
+                   This is an Android like layout framework for iOS.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   * Calculation of frame is boring.
+                   * Autolayout and size class is even more boring and not easy to fix those warnings and errors.
+                   * This framework is used to solve this two problems based on frame positon.
+                   
                    DESC
 
   s.homepage     = "https://github.com/future-challenger/easy_layout"
@@ -68,7 +68,6 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EasyLayout/Classes", "EasyLayout/Classes/*.{h,m}"
+  s.source_files  = "EasyLayout/Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "EasyLayout/Classes/**/*.h"
