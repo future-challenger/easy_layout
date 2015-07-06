@@ -14,7 +14,7 @@
 		059D2BCE1B4A2E17000E69B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059D2BCD1B4A2E17000E69B3 /* Images.xcassets */; };
 		059D2BD11B4A2E17000E69B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059D2BCF1B4A2E17000E69B3 /* LaunchScreen.xib */; };
 		059D2BDD1B4A2E17000E69B3 /* EasyLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BDC1B4A2E17000E69B3 /* EasyLayoutTests.m */; };
-		059D2BE81B4A35A9000E69B3 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BE71B4A35A9000E69B3 /* UIView+EasyLayout.m */; };
+		059D2BF01B4A3B63000E69B3 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D2BEF1B4A3B63000E69B3 /* UIView+EasyLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		059D2BD61B4A2E17000E69B3 /* EasyLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D2BDB1B4A2E17000E69B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D2BDC1B4A2E17000E69B3 /* EasyLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyLayoutTests.m; sourceTree = "<group>"; };
-		059D2BE61B4A35A9000E69B3 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
-		059D2BE71B4A35A9000E69B3 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		059D2BEE1B4A3B63000E69B3 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		059D2BEF1B4A3B63000E69B3 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,7 @@
 		059D2BB41B4A2E17000E69B3 = {
 			isa = PBXGroup;
 			children = (
-				059D2BE61B4A35A9000E69B3 /* UIView+EasyLayout.h */,
-				059D2BE71B4A35A9000E69B3 /* UIView+EasyLayout.m */,
+				059D2BED1B4A3B63000E69B3 /* Classes */,
 				059D2BBF1B4A2E17000E69B3 /* EasyLayout */,
 				059D2BD91B4A2E17000E69B3 /* EasyLayoutTests */,
 				059D2BBE1B4A2E17000E69B3 /* Products */,
@@ -122,6 +121,15 @@
 				059D2BDB1B4A2E17000E69B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		059D2BED1B4A3B63000E69B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				059D2BEE1B4A3B63000E69B3 /* UIView+EasyLayout.h */,
+				059D2BEF1B4A3B63000E69B3 /* UIView+EasyLayout.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +234,7 @@
 			files = (
 				059D2BC91B4A2E17000E69B3 /* ViewController.m in Sources */,
 				059D2BC61B4A2E17000E69B3 /* AppDelegate.m in Sources */,
-				059D2BE81B4A35A9000E69B3 /* UIView+EasyLayout.m in Sources */,
+				059D2BF01B4A3B63000E69B3 /* UIView+EasyLayout.m in Sources */,
 				059D2BC31B4A2E17000E69B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
